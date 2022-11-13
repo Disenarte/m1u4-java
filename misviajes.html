@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MIS VIAJES</title>
+
+</head>
+
+<body>
+	<h1>Guia de rutas</h1>
+
+	<script type="text/javascript">
+
+		metros = parseInt(prompt('Ingrese la distancia:', ''));
+		if (metros <= 1000) {
+			document.write('El de transporte conveniente es ir a pie.');
+		} else if (metros <= 10000) {
+			document.write('El transporte que te conviene es ir en bicicleta');
+		} else if (metros <= 30000) {
+			document.write('El transporte que te conviene es ir en colectivo');
+		} else if (metros <= 100000) {
+			document.write('El de transporte conveniente es ir en auto.');
+		} else {
+			document.write('El de transporte conveniente es ir en avion.');
+		}
+
+	
+	</script>
+</body>
+
+</html>
